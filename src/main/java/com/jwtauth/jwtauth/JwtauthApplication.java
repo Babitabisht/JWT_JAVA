@@ -35,7 +35,7 @@ public class JwtauthApplication {
 			userService.saveRole(new Role(3,"ROLE_ADMIN"));
 			userService.saveRole(new Role(4,"ROLE_SUPER_ADMIN"));
 
-			userService.saveUser(new AppUser(1, "babita","bisht", "1234", new ArrayList<>()));
+		/*	userService.saveUser(new AppUser(1, "babita","bisht", "1234", new ArrayList<>()));*/
 			/*userService.addRoleToUser("babita","ROLE_USER");*/
 			/*userService.addRoleToUser("sia","ROLE_MANAGER");
 			userService.addRoleToUser("kate","ROLE_ADMIN");*/
