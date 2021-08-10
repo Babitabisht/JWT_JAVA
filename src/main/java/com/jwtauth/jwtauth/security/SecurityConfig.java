@@ -30,9 +30,7 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        log.info("here------------------->");
        auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
-        log.info("here 2------------------->");
     }
 
     @Override

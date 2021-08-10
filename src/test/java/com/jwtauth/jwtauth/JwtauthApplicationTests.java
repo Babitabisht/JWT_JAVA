@@ -1,3 +1,4 @@
+/*
 package com.jwtauth.jwtauth;
 
 import org.junit.jupiter.api.Test;
@@ -11,3 +12,4 @@ class JwtauthApplicationTests {
 	}
 
 }
+*/
